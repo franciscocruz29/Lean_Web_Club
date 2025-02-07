@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
         <link rel="stylesheet" href="styles.css" />
-        <title>Project: Toggle Multiple Password Fields</title>
+        <title>Project: Toggle password visibility in multiple forms</title>
     </head>
     <body>
         <h2>Change Username</h2>
@@ -27,6 +27,7 @@
                         type="checkbox"
                         name="show-password"
                         id="show-password"
+                        data-pw-toggle="#password"
                     />
                     Show password
                 </label>
@@ -61,6 +62,7 @@
                         type="checkbox"
                         name="show-passwords"
                         id="show-passwords"
+                        data-pw-toggle="#current-password, #new-password"
                     />
                     Show passwords
                 </label>
