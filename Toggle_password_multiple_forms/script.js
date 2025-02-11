@@ -1,3 +1,9 @@
+/* Abstracting the code a bit by using a custom
+data attribute with your selectors lets you write your code once
+and use it on as many forms as you need.
+
+Don’t Repeat Yourself (DRY) */
+
 // Listen to all click events in the browser
 document.addEventListener("click", function (event) {
   // Check if clicked item was a password toggle
